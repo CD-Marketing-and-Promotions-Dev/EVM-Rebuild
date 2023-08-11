@@ -20,7 +20,8 @@
 
 <div
   class="utility-bar"
-  style="background-image: url({{ section.settings.background_image | image_url: width: 480, height: 480 }});"
+  {% comment %} EVM: For Banner Background Image {% endcomment %}
+  style="background-image: url({{ section.settings.background_image | image_url: width: 480, height: 480 }}); background-position: center; background-repeat: no-repeat; background-size: cover;"
 >
   <div class="page-width utility-bar__grid{% if announcement_bar and language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--3-col{% elsif language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--2-col{% endif %}">
     {%- if section.settings.show_social and social_icons -%}
@@ -40,7 +41,10 @@
               class="announcement-bar__link link link--text focus-inset animate-arrow"
             >
           {%- endif -%}
-          <p class="announcement-bar__message h5">
+          <p
+            class="announcement-bar__message h5"
+            style="color:#ffffff"
+          >
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
               {% render 'icon-arrow' %}
