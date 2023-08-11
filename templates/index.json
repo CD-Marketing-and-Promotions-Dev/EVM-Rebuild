@@ -7,9 +7,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/result-4.jpg",
-            "heading": "<strong>Mod Your Tesla<\/strong>",
+            "heading": "<strong>MOD YOUR TESLA<\/strong>",
             "heading_size": "h0",
-            "subheading": "Join The Club Today.",
+            "subheading": "<strong>JOIN THE CLUB TODAY<\/strong>",
             "button_label": "EXPLORE",
             "link": "shopify:\/\/collections",
             "button_style_secondary": true,
@@ -25,9 +25,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/result-1.jpg",
-            "heading": "<strong>Mod Your Tesla<\/strong>",
+            "heading": "<strong>MOD YOUR TESLA<\/strong>",
             "heading_size": "h0",
-            "subheading": "Join The Club Today.",
+            "subheading": "<strong>JOIN THE CLUB TODAY<\/strong>",
             "button_label": "EXPLORE",
             "link": "shopify:\/\/collections",
             "button_style_secondary": true,
@@ -43,9 +43,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/result-3.jpg",
-            "heading": "<strong>Mod Your Tesla<\/strong>",
+            "heading": "<strong>MOD YOUR TESLA<\/strong>",
             "heading_size": "h0",
-            "subheading": "Join The Club Today.",
+            "subheading": "<strong>JOIN THE CLUB TODAY<\/strong>",
             "button_label": "EXPLORE",
             "link": "shopify:\/\/collections",
             "button_style_secondary": true,
@@ -61,9 +61,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/result-6.jpg",
-            "heading": "<strong>Mod Your Tesla<\/strong>",
+            "heading": "<strong>MOD YOUR TESLA<\/strong>",
             "heading_size": "h0",
-            "subheading": "Join The Club Today.",
+            "subheading": "<strong>JOIN THE CLUB TODAY<\/strong>",
             "button_label": "EXPLORE",
             "link": "shopify:\/\/collections",
             "button_style_secondary": true,
@@ -84,13 +84,13 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
+        "slide_height": "large",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Main Hero Slideshow"
       }
     },
     "image_banner": {
