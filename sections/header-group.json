@@ -8,8 +8,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Local Pickup and Install Available. Located in Tampa Bay",
+            "link": "shopify:\/\/pages\/contact"
           }
         }
       },
