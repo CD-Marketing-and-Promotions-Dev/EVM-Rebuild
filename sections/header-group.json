@@ -29,6 +29,8 @@
     "header": {
       "type": "header",
       "settings": {
+        "phone_number": "+1 727-935-4621",
+        "email_address": "corey.eberhardt@coaterz.com",
         "logo_position": "top-center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
