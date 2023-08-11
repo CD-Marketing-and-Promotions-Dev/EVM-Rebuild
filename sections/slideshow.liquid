@@ -161,7 +161,11 @@
               </h2>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
-              <div class="banner__text rte" {{ block.shopify_attributes }}>
+              <div
+                class="banner__text rte"
+                {{ block.shopify_attributes }}
+                style="color:#ffffff;font-size:2.2rem;margin-top:0rem;margin-bottom:0rem;"
+              >
                 <p>{{ block.settings.subheading }}</p>
               </div>
             {%- endif -%}
@@ -174,7 +178,7 @@
                     role="link" aria-disabled="true"
                   {% endif %}
                   class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
-                  style="transform: skewX(-15deg)"
+                  style="transform: skewX(-15deg);border:2px solid #ffffff;"
                 >
                   {{- block.settings.button_label | escape -}}
                 </a>
