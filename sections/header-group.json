@@ -17,7 +17,7 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "background_image": "shopify:\/\/shop_images\/Banner-background1.webp",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
