@@ -3,6 +3,24 @@
     "2bd8c0ee-391c-4bbb-88df-d6583545b20d": {
       "type": "slideshow",
       "blocks": {
+        "651eef72-df32-4596-8ce8-37533ba10f4a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/result-3.jpg",
+            "heading": "<strong>MOD YOUR TESLA<\/strong>",
+            "heading_size": "h0",
+            "subheading": "<strong>JOIN THE CLUB TODAY<\/strong>",
+            "button_label": "EXPLORE",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": true,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--20423464255770__2bd8c0ee-391c-4bbb-88df-d6583545b20d-slide-2": {
           "type": "slide",
           "settings": {
@@ -39,24 +57,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "651eef72-df32-4596-8ce8-37533ba10f4a": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/result-3.jpg",
-            "heading": "<strong>MOD YOUR TESLA<\/strong>",
-            "heading_size": "h0",
-            "subheading": "<strong>JOIN THE CLUB TODAY<\/strong>",
-            "button_label": "EXPLORE",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": true,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "accent-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "f21d3de6-30ba-49f1-9e22-2e45a4e3139d": {
           "type": "slide",
           "settings": {
@@ -77,9 +77,9 @@
         }
       },
       "block_order": [
+        "651eef72-df32-4596-8ce8-37533ba10f4a",
         "template--20423464255770__2bd8c0ee-391c-4bbb-88df-d6583545b20d-slide-2",
         "template--20423464255770__2bd8c0ee-391c-4bbb-88df-d6583545b20d-slide-1",
-        "651eef72-df32-4596-8ce8-37533ba10f4a",
         "f21d3de6-30ba-49f1-9e22-2e45a4e3139d"
       ],
       "settings": {
