@@ -83,10 +83,14 @@
           <a
             id="HeaderMenu-{{ link.handle }}"
             href="{{ link.url }}"
-            class="header__menu-item list-menu__item link link--text focus-inset"
             {% if link.current %}
               aria-current="page"
             {% endif %}
+            {% comment %}
+              EVM : Update for hover animation
+              class="header__menu-item list-menu__item link link--text focus-inset"
+            {% endcomment %}
+            class="custom-header-links"
           >
             <span
               {%- if link.current %}

@@ -96,9 +96,6 @@
     display: flex;
     align-items: center;
     line-height: calc(1 + 0.3 / var(--font-body-scale));
-    font-size: 1.6rem;
-    text-transform: uppercase;
-    letter-spacing: .5rem;
   }
 
   .list-menu__item--link {
@@ -110,6 +107,33 @@
 
   .header__active-menu-item {
     text-decoration: none;
+  }
+
+  {% comment %} EVM {% endcomment %}
+  .custom-header-links {
+    text-decoration:none;
+    padding:.5rem 4rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color:#000000;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .custom-header-links span::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #dd6d06;
+    transition: width 0.5s ease;
+  }
+  
+  .custom-header-links span:hover::before {
+    width: 100%;
   }
 
   @media screen and (min-width: 750px) {
