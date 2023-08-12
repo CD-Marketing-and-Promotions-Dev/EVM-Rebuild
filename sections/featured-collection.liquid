@@ -20,6 +20,20 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .hover-button-container {
+    z-index:-1;
+    margin-top:-4rem;
+    color:#ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+  }
+
+  .card--media:hover .hover-button-container {
+    z-index: 1;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
