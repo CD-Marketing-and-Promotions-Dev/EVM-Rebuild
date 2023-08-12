@@ -126,7 +126,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>New Arrivals<\/strong>",
+        "title": "New Arrivals",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
