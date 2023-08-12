@@ -60,7 +60,7 @@
         "f21d3de6-30ba-49f1-9e22-2e45a4e3139d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MATTEPPF.jpg",
+            "image": "shopify:\/\/shop_images\/result-6.jpg",
             "heading": "<strong>MOD YOUR TESLA<\/strong>",
             "heading_size": "h0",
             "subheading": "<strong>JOIN THE CLUB TODAY<\/strong>",
@@ -147,8 +147,8 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "0f66a34f-595e-40a2-8cde-e5711d3c2e3b": {
