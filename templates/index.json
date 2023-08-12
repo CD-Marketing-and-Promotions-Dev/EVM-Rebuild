@@ -67,7 +67,7 @@
             "button_label": "EXPLORE +",
             "link": "shopify:\/\/collections",
             "button_style_secondary": true,
-            "box_align": "middle-center",
+            "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 50,
@@ -91,54 +91,6 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Main Hero Slideshow"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_overlay_opacity": 10,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "rich_text": {
@@ -174,14 +126,14 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>New Arrivals<\/strong>",
+        "title": "New Arrivals",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "tesla-model-3",
+        "products_to_show": 5,
+        "columns_desktop": 5,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "outline",
@@ -195,45 +147,47 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
-    "collage": {
-      "type": "collage",
+    "0f66a34f-595e-40a2-8cde-e5711d3c2e3b": {
+      "type": "collection-list",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-1": {
+          "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "tesla-model-3"
           }
         },
-        "product": {
-          "type": "product",
+        "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-2": {
+          "type": "featured_collection",
           "settings": {
-            "product": "",
-            "second_image": false
+            "collection": "carbon-fiber-mods"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-3": {
+          "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-1",
+        "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-2",
+        "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-3"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
         "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -244,75 +198,96 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=0kQUeND4pr8&t=2s",
+        "cover_image": "shopify:\/\/shop_images\/Screenshot_2023-08-12_at_3.52.23_PM.png",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
+    "74839f09-35cf-49e2-adc8-aa985a0b873f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"background-color:#ebebeb; text-align:center; padding: 1rem; display: flex; justify-content: center; align-items: center; max-width: 92%; margin: auto;\"> <!-- Added max-width and margin: auto -->\n  <span style=\"font-size: 1.4rem; font-weight:500; margin-right: 1rem; color:#000;\">SPEED, STYLE & CARBON FIBER<\/span>\n  <a href=\"\/collections\" style=\"text-decoration:none; border:1px solid #000; color:#000; margin-left:2rem; padding:0.3rem 1rem; display:inline-block; transform: skewX(-15deg);\">\n    EXPLORE +\n  <\/a>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "fb0c2e03-a678-45c9-92d6-f891def6364f": {
+      "type": "collection-list",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "template--20423464255770__fb0c2e03-a678-45c9-92d6-f891def6364f-featured_collection-1": {
+          "type": "featured_collection",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "collection": "carbon-fiber-mods"
           }
         },
-        "column2": {
-          "type": "column",
+        "template--20423464255770__fb0c2e03-a678-45c9-92d6-f891def6364f-featured_collection-2": {
+          "type": "featured_collection",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "collection": "tesla-model-3"
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "template--20423464255770__fb0c2e03-a678-45c9-92d6-f891def6364f-featured_collection-1",
+        "template--20423464255770__fb0c2e03-a678-45c9-92d6-f891def6364f-featured_collection-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "f44221ad-c968-4e19-a033-06a936a5e9e0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20423464255770__f44221ad-c968-4e19-a033-06a936a5e9e0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "ELECTRIC VEHICLE ACCESSORIES",
+            "heading_size": "h1"
+          }
+        },
+        "template--20423464255770__f44221ad-c968-4e19-a033-06a936a5e9e0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Tesla Bay, we understand that every Tesla owner has unique preferences and requirements. If you're a DIY enthusiast and love taking charge of installations, our extensive range of Tesla parts and accessories is available for you to pick up and install at your convenience. We provide comprehensive product support and guidance, empowering you to personalize your Tesla just the way you envision it.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20423464255770__f44221ad-c968-4e19-a033-06a936a5e9e0-heading-1",
+        "template--20423464255770__f44221ad-c968-4e19-a033-06a936a5e9e0-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "2bd8c0ee-391c-4bbb-88df-d6583545b20d",
-    "image_banner",
     "rich_text",
     "featured_collection",
-    "collage",
+    "0f66a34f-595e-40a2-8cde-e5711d3c2e3b",
     "video",
-    "multicolumn"
+    "74839f09-35cf-49e2-adc8-aa985a0b873f",
+    "fb0c2e03-a678-45c9-92d6-f891def6364f",
+    "f44221ad-c968-4e19-a033-06a936a5e9e0"
   ]
 }

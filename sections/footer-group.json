@@ -9,33 +9,35 @@
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         },
-        "footer-1": {
-          "type": "link_list",
+        "deb0aa4b-dabd-4efa-bb7b-5e8089715792": {
+          "type": "image",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "image": "shopify:\/\/shop_images\/evm-logo-1.png",
+            "image_width": 295,
+            "alignment": "center"
           }
         },
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "REGISTERED ADDRESSES",
+            "subtext": "<p>4824 Alt 19, Palm Harbor, FL, United States, Florida<\/p>"
           }
         }
       },
       "block_order": [
         "footer-0",
-        "footer-1",
+        "deb0aa4b-dabd-4efa-bb7b-5e8089715792",
         "footer-2"
       ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
