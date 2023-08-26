@@ -162,6 +162,7 @@
         },
         "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "carbon-fiber-mods"
           }
@@ -199,7 +200,6 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/www.youtube.com\/watch?v=0kQUeND4pr8&t=2s",
-        "cover_image": "shopify:\/\/shop_images\/Screenshot_2023-08-12_at_3.52.23_PM.png",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -221,12 +221,14 @@
       "blocks": {
         "template--20423464255770__fb0c2e03-a678-45c9-92d6-f891def6364f-featured_collection-1": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "carbon-fiber-mods"
           }
         },
         "template--20423464255770__fb0c2e03-a678-45c9-92d6-f891def6364f-featured_collection-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "tesla-model-3"
           }
