@@ -8,14 +8,14 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "",
             "menu": "main-menu"
           }
         },
         "deb0aa4b-dabd-4efa-bb7b-5e8089715792": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/evm-logo-1.png",
+            "image": "shopify:\/\/shop_images\/tesla-bay-footer.jpg",
             "image_width": 295,
             "alignment": "center"
           }
@@ -24,7 +24,7 @@
           "type": "text",
           "settings": {
             "heading": "REGISTERED ADDRESSES",
-            "subtext": "<p>4824 Alt 19, Palm Harbor, FL, United States, Florida<\/p>"
+            "subtext": "<p>4824 Alt 19 Unit B<\/p><p>Palm Harbor, FL 34683<\/p><p>(727) 935-4621<\/p><p><\/p>"
           }
         }
       },
@@ -36,13 +36,13 @@
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Get Electric Updates:",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 48,
         "padding_top": 36,
         "padding_bottom": 36
