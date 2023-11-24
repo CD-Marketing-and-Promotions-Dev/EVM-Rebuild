@@ -93,51 +93,6 @@
         "accessibility_info": "Main Hero Slideshow"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Latest Available Inventory",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Tesla Bay: Your Ultimate Destination for Tesla Enthusiasts! EVM is your Tesla parts mod source.<\/p><p>Whether you prefer a hands-on approach or seek professional installation services, Tesla Bay is the one-stop-shop that caters to all your Tesla needs. Conveniently located at CoaterZ in Palm Harbor, we offer an unrivaled experience that ensures you receive top-quality service and expertise.<\/p><p>At Tesla Bay, we understand that every Tesla owner has unique preferences and requirements. If you're a DIY enthusiast and love taking charge of installations, our extensive range of Tesla parts and accessories is available for you to pick up and install at your convenience. We provide comprehensive product support and guidance, empowering you to personalize your Tesla just the way you envision it.<\/p><p>However, if you prefer a seamless and professional installation process, our skilled team of technicians is ready to assist you. As the leading ceramic coating installer in the U.S. for Feynlab, CoaterZ boasts an unparalleled reputation for providing outstanding paint protection services. Additionally, we take pride in being the go-to destination for Tesla wrap and tint services in the area. With our expertise, you can rest assured that your Tesla will receive meticulous care and attention, ensuring the highest standards of quality and craftsmanship.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=0kQUeND4pr8&t=2s",
-        "cover_image": "shopify:\/\/shop_images\/result-4.jpg",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -164,6 +119,43 @@
         "swipe_on_mobile": false,
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Tesla Mod Shop is located in the Tampa Bay region and provides modifications for people across the state of Florida. Tesla owners travel  to have access to in-stock carbon fiber parts and professional installation of any mods.<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=0kQUeND4pr8&t=2s",
+        "cover_image": "shopify:\/\/shop_images\/result-4.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     },
     "0f66a34f-595e-40a2-8cde-e5711d3c2e3b": {
@@ -251,46 +243,15 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
-    },
-    "f44221ad-c968-4e19-a033-06a936a5e9e0": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20423464255770__f44221ad-c968-4e19-a033-06a936a5e9e0-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "ELECTRIC VEHICLE ACCESSORIES",
-            "heading_size": "h1"
-          }
-        },
-        "template--20423464255770__f44221ad-c968-4e19-a033-06a936a5e9e0-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>At Tesla Bay, we understand that every Tesla owner has unique preferences and requirements. If you're a DIY enthusiast and love taking charge of installations, our extensive range of Tesla parts and accessories is available for you to pick up and install at your convenience. We provide comprehensive product support and guidance, empowering you to personalize your Tesla just the way you envision it.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20423464255770__f44221ad-c968-4e19-a033-06a936a5e9e0-heading-1",
-        "template--20423464255770__f44221ad-c968-4e19-a033-06a936a5e9e0-text-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "2bd8c0ee-391c-4bbb-88df-d6583545b20d",
+    "featured_collection",
     "rich_text",
     "video",
-    "featured_collection",
     "0f66a34f-595e-40a2-8cde-e5711d3c2e3b",
     "74839f09-35cf-49e2-adc8-aa985a0b873f",
-    "fb0c2e03-a678-45c9-92d6-f891def6364f",
-    "f44221ad-c968-4e19-a033-06a936a5e9e0"
+    "fb0c2e03-a678-45c9-92d6-f891def6364f"
   ]
 }
