@@ -161,12 +161,6 @@
     "0f66a34f-595e-40a2-8cde-e5711d3c2e3b": {
       "type": "collection-list",
       "blocks": {
-        "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tesla-model-3"
-          }
-        },
         "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-2": {
           "type": "featured_collection",
           "disabled": true,
@@ -183,7 +177,6 @@
         }
       },
       "block_order": [
-        "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-1",
         "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-2",
         "template--20423464255770__0f66a34f-595e-40a2-8cde-e5711d3c2e3b-featured_collection-3"
       ],
@@ -243,6 +236,43 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "bc0e3c7a-8996-4aaa-b74a-027fd5725041": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20404755955986__bc0e3c7a-8996-4aaa-b74a-027fd5725041-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your Tesla Mod Shop",
+            "heading_size": "h0"
+          }
+        },
+        "template--20404755955986__bc0e3c7a-8996-4aaa-b74a-027fd5725041-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "A Tesla design studio to full modify your Tesla with parts and accessories in stock. Florida-based.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20404755955986__bc0e3c7a-8996-4aaa-b74a-027fd5725041-heading-1",
+        "template--20404755955986__bc0e3c7a-8996-4aaa-b74a-027fd5725041-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/teslamodel3Ypowerfrunk.jpg",
+        "image_2": "shopify:\/\/shop_images\/j_race.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -252,6 +282,7 @@
     "video",
     "0f66a34f-595e-40a2-8cde-e5711d3c2e3b",
     "74839f09-35cf-49e2-adc8-aa985a0b873f",
-    "fb0c2e03-a678-45c9-92d6-f891def6364f"
+    "fb0c2e03-a678-45c9-92d6-f891def6364f",
+    "bc0e3c7a-8996-4aaa-b74a-027fd5725041"
   ]
 }
